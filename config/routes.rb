@@ -1,5 +1,6 @@
 TmpApp::Application.routes.draw do
   mount Comments::Engine => '/comments', :as => "comments"
+  root :to => "home#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
