@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/Grycek/Kurs-RoR-11-engine.git
+  revision: dd76c72f444a3f55d2c308083fc3be0d0ce6b4a4
+  specs:
+    comments (0.0.1)
+      rails (>= 3.0.0)
+
+GIT
   remote: git://github.com/drogus/rails.git
   revision: 34d21b87bb237bf55214bd476be71116a2a5258f
   branch: engines
@@ -55,12 +62,6 @@ GIT
   revision: 3b36a912b940921a3f1e548e59fec74300749ebc
   specs:
     arel (2.0.7.beta.20101201093009)
-
-PATH
-  remote: ../comments
-  specs:
-    comments (0.0.1)
-      rails (>= 3.0.0)
 
 GEM
   remote: http://rubygems.org/

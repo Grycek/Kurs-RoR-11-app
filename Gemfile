@@ -3,8 +3,8 @@ source 'http://rubygems.org'
 gem "rails", :git => "git://github.com/drogus/rails.git", :branch => "engines"
 gem "rack", :git => "git://github.com/rack/rack.git"
 gem "arel", :git => "git://github.com/rails/arel.git"
-# gem 'comments', :git => 'git://github.com/Grycek/Kurs-RoR-11-engine.git'
-gem 'comments', :path => '../comments'
+gem 'comments', :git => 'git://github.com/Grycek/Kurs-RoR-11-engine.git'
+#gem 'comments', :path => '../comments'
 
 
 
